@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# REST client files
+*.rest
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# PM2 and runtime stuff
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Secrets or credentials
+*.pem
+*.key
+*.crt
+secrets.*
